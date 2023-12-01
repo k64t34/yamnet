@@ -1,2 +1,7 @@
-# Log file
 *.log
+*.bak
+Thumbs.db
+Nginx*
+Nginx*.*
+pass.php
+yapikey.php 
