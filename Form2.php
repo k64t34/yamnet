@@ -12,7 +12,7 @@
 <h1>Дефект на дороге</h1>
 	<form action="ResponseForm2.PHP"  method="post" >
 	<table width="50%" id="Address">
-	<tr width="20%"><td>Адрес</td><td>  <textarea name="address" rows="2"> г.Пятигорск </textarea></td></tr>
+	<tr width="20%"><td>Адрес</td><td>  <textarea name="address" id="address" rows="2"> г.Пятигорск </textarea></td></tr>
 	<tr><td>Широта</td><td> <input type="text" name="latitude"  id="latitude"  value="44.036056" onchange="OnChange()"></td></tr>
 	<tr><td>Долгота</td><td><input type="text" name="longitude" id="longitude" value="43.066394" onchange="OnChange()"></td></tr>
 	<!--<tr><td>Дата подачи обращения </td><td><input type="text" name="date_appeal" ></td></tr>	-->
