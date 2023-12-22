@@ -1,6 +1,12 @@
 <?php 
 //https://habr.com/ru/articles/137664/
 //https://phpfaq.ru/pdo
+if (!isset($_SESSION['session']) )
+{
+require_once('form2.php');
+exit();
+}
+
 require_once('pass.php');
 $result=false;
 $address = $latitude = $longitude = "";// define variables and set to empty values

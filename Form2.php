@@ -1,4 +1,10 @@
-<?php require_once('yapikey.php');?>
+<?php 
+/*if (!isset($_SESSION['session']) )
+{
+session_start();	
+$_SESSION["session"] = 1;
+}*/
+require_once('yapikey.php');?>
 <!DOCTYPE html><html lang='ru'>
 <head>
 <link rel="icon" type="image/ico" href="favicon.ico"/>
